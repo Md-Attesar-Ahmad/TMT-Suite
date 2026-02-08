@@ -1,23 +1,40 @@
+# Core app
 streamlit>=1.30
 
-lxml>=4.9
-osmnx>=1.8
-geopandas>=0.14
-shapely>=2.0
-folium>=0.15
-streamlit-folium>=0.18
-geopy>=2.4
+# Geospatial stack
+osmnx>=1.9.0
+geopandas
+shapely
+pyproj
+fiona
+folium
+streamlit-folium
+geopy
 
-selenium>=4.15
-webdriver-manager>=4.0
+# Data & utilities
+pandas
+numpy
+requests
+certifi
+lxml
+beautifulsoup4
+dateparser
+openpyxl
+matplotlib
 
-fuzzywuzzy>=0.18
-python-Levenshtein>=0.21
+# Text / matching
+fuzzywuzzy
 
-requests>=2.31
-certifi>=2023.11
-beautifulsoup4>=4.12
+# Web / scraping / automation
+selenium
+webdriver-manager
 
-openai>=1.0
-openpyxl>=3.1
-dateparser>=1.2
+# SSL / cert handling
+pip-system-certs
+pyOpenSSL
+
+# Archives
+zipfile36
+
+# OpenAI
+openai
